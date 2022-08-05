@@ -26,7 +26,7 @@ Clone the repository on GitHub then open Git on your local machine. First find a
 The purpose of this project is to make a mock up coding assessment that I could later run into when interviewing. 
 
 
-![Challange5](./images/coding%20challenge.PNG)
+![Challange5](./images/Calender.PNG)
 
 # Deployed Site 
 https://wixkedluck.github.io/Module-4-Challenge/
