@@ -5,6 +5,10 @@ var button2= document.getElementById('btn2');
 
 let scratchpad = document.querySelector('#NINEAM'); 
 let scratchpad2 = document.querySelector('#TENAM'); 
+//check time first then do everything else 
+if (getTime==0){
+    localStorage.clear(); 
+}
 
 scratchpad.value=localStorage.getItem('Nine');
 scratchpad2.value=localStorage.getItem('Ten');
@@ -114,7 +118,6 @@ if(getTime==10){
 // }else {
 //     document.getElementById('Fivepm').style.backgroundColor = "Red";
 // }
-
 
 
 
