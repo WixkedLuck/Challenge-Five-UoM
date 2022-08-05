@@ -29,5 +29,5 @@ The purpose of this project is to make a mock up coding assessment that I could 
 ![Challange5](./images/Calender.PNG)
 
 # Deployed Site 
-https://wixkedluck.github.io/Module-4-Challenge/
+https://wixkedluck.github.io/Work-Day-Scheduler-/
 
