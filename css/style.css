@@ -56,3 +56,21 @@ textarea {
   background-color: #77dd77;
   color: white;
 }
+.container{
+  
+  margin: 20px;
+padding: 30px 0;
+}
+.border-dot{
+  border-top: dashed 3px black;
+  border-bottom:dashed 3px black;
+  border-right: solid 1px black;
+  width: 10%;
+  
+}
+
+
+#Nineam {
+background-color: #77dd77;
+
+}
