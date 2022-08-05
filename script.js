@@ -2,9 +2,12 @@ var $time= $('#currentDay');
 var getTime=moment().hour();
 var button1= document.getElementById('btn1');
 var button2= document.getElementById('btn2');
+var button2= document.getElementById('btn3');
+
 
 let scratchpad = document.querySelector('#NINEAM'); 
 let scratchpad2 = document.querySelector('#TENAM'); 
+let scratchpad3 = document.querySelector('#ELEVEN');
 //check time first then do everything else 
 if (getTime==0){
     localStorage.clear(); 
@@ -12,6 +15,7 @@ if (getTime==0){
 
 scratchpad.value=localStorage.getItem('Nine');
 scratchpad2.value=localStorage.getItem('Ten');
+scratchpad2.value=localStorage.getItem('Eleven')
 
 //display current time
 
@@ -32,6 +36,15 @@ function SaveNotes2(){
     console.log('in function');
     
     }
+    function SaveNotes3(){
+
+        localStorage.setItem('',scratchpad2.value)
+        console.log('in function');
+        
+        }
+
+
+
 
 button1.addEventListener('click',SaveNotes)
 button2.addEventListener('click',SaveNotes2)
